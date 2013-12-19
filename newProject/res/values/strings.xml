@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black">#000000</color>
+    <string name="app_name">Commonwealth Games App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Diary</string>
+    <string name="map_type">Map Type</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="diary_entry">
+    </string-array>
+    <string-array name="games_array">
+        <item>Glasgow(2014)</item>
+        <item>Delhi(2010)</item>
+        <item>Melbourne(2006)</item>
+        <item>Manchester(2002)</item>
+        <item>Kuala Lumpur(1998)</item>
+        <item>Victoria(1994)</item>
+        <item>Auckland(1990)</item>
+        <item>Edinburgh(1986)</item>
+        <item>Brisbane(1982)</item>
+        <item>Edmunton(1978)</item>
+        <item>Christchurch(1974)</item>
+    </string-array>
+
+    <string name="title_activity_diary">Diary</string>
+
+</resources>

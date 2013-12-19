@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/black"
+	android:orientation="horizontal">
+<TableLayout
+    android:id="@+id/tableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ccff"
+        android:text="Add Entry" />
+	<EditText
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ccff"
+        android:hint="Write Diary Entries" />
+	<ImageButton
+	    android:id="@+id/backButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="30dp"
+	    android:src="@drawable/googlemapsterrain"
+	    android:textColor="#00ccff"
+	    android:text="Map"
+	    android:onClick="sendMessage"/>
+    </TableRow>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ccff"
+        android:text="Diary Entries"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<ListView 
+		    android:id="@+id/entryList"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="#00ccff"
+		    android:textColor="#000000"/>
+	</TableLayout>
+</LinearLayout>
